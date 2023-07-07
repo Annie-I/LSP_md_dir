@@ -28,19 +28,14 @@ path2/filename2
 
 Datuma formāts ir tāds pat kā ls -l: (yyyy-mm-dd hh:mm). Piemēram: 2010-09-25 21:45 
 
-Piemēri:
+## Piemēri:
 
-Darbinām md3, salīdzinām arī datumus, izvadam rezultātus log failā.
-md3 -d > log
+Darbinām md3, salīdzinām arī datumus, izvadam rezultātus log failā:  md3 -d > log
 
-Salīdzinām failus tikai pēc vārdiem
-md3
+Salīdzinām failus tikai pēc vārdiem:  md3
 
-Salīdzinām failus pēc vārdiem un izmaiņu datumiem
-md3 -d
+Salīdzinām failus pēc vārdiem un izmaiņu datumiem:  md3 -d
 
-Salīdzinām failus pēc satura
-md3 -m
+Salīdzinām failus pēc satura:  md3 -m
 
-Salīdzinām failus pēc satura, vārdiem un datumiem. Izvadam tikai tos, kam visi vienādi.
-md3 -d -m
+Salīdzinām failus pēc satura, vārdiem un datumiem. Izvadam tikai tos, kam visi vienādi:  md3 -d -m
