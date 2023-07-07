@@ -8,7 +8,7 @@ Faili tiek uzskatīti par vienādiem, ja tiem ir vienāds izmērs un faila vārd
 
 Saites (symbolic links, t.i. "vājās" saites) jāignorē. Divas vājās saites, vai arī fails un vājā saite uz to nav jāsalīdzina.
 
-Vārds un izmērs jāpārbauda vienmēr, izņemot MD5 režīmu. Papildus pārbaudes nosaka parametri:
+Vārds un izmērs jāpārbauda vienmēr. Papildus pārbaudes nosaka parametri:
 
 ```
 md3 -d      pārbauda arī faila satura izmaiņu datumu (st_mtime) sakritību
